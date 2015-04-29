@@ -31,4 +31,6 @@ func main() {
 		blacklistedIps:     *blacklistedIpsPtr}
 
 	configure(options)
+
+	SetupRoutesAndStartServer()
 }

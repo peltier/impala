@@ -4,7 +4,6 @@ EXE=bin/impala
 
 CWD=$(shell pwd)
 VENDOR=$(CWD)/vendor
-export GOPATH=$(CWD):$(VENDOR)
 PROJECT_SRC=$(shell find . -path ./vendor -prune -o -type f -name '*.go' -print)
 ALL_SRC=$(shell find . -type f -name '*.go')
 
